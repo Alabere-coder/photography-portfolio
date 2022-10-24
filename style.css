@@ -1,4 +1,6 @@
     /* GENERAL----Stylings */
+
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +9,7 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 html {
     scroll-behavior: smooth;
@@ -50,8 +53,8 @@ img {
 /* __________________NAV---SECTION______________ */
 
 nav {
-    height: 5rem;
-    width: 100vh;
+    height: 7rem;
+    width: 100vw;
     display: grid;
     position: fixed;
     top: 0;
@@ -71,11 +74,14 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 .nav__toggle-btn {
     display: none;
 }
 .nav__logo {
+    position: relative;
+    left: 60px;
     width: 7.5rem;
 }
 .nav__links {
@@ -84,6 +90,8 @@ nav {
 }
 .nav__socials {
     display: flex;
+    position: relative;
+    right: 60px;
     gap: 1rem;
 }
 .nav__socials a {
@@ -97,4 +105,16 @@ nav {
 }
 .nav__socials a:hover {
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.7);
+}
+
+
+/* __________________HEADER---SECTION______________ */
+
+header {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    left: 60px;
+    top: 0;
+    padding-right: 120px;
 }
