@@ -380,3 +380,42 @@ header {
 .about__right p:nth-child(3) {
     margin-top: -5rem;
 }
+
+
+
+#gallery {
+    margin-top: 12rem;
+}
+.gallery__head {
+    display: flex;
+    justify-content: space-between;
+}
+.gallery__container p {
+    width: 45rem;
+}
+.swiper-wrapper {
+    margin-top: 5rem;
+    height: 30rem;
+    padding-bottom: 5rem;
+}
+.swiper-slide img {
+    height: 29rem;
+    filter: saturate(0);
+    transition: all 300ms ease;
+}
+.swiper-slide img:hover {
+    filter: saturate(1);
+}
+.swiper-slide {
+    border: 0.5rem solid #003347;
+    height: fit-content;
+    max-height: 36rem;
+    overflow: hidden;
+    transition: all 400ms ease;
+}
+.swiper-slide:hover {
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.6);
+}
+.swiper-pagination-bullet {
+    background: #ff7b02;
+}
