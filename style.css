@@ -486,7 +486,7 @@ header {
 }
 .exhibitions__gallery img {
     height: 100%;
-    filter: saturate(0) brightness(2);
+    filter: saturate(0);
     transition: all 400ms ease;
 }
 .exhibitions__gallery article:hover img {
@@ -494,4 +494,38 @@ header {
 }
 .exhibitions__gallery article:hover {
     box-shadow: 0 4rem 4rem rgba(0, 0, 0, 0.6);
+}
+footer {
+    margin-top: 7rem;
+}
+.footer__container {
+    border-top: 0.5rem solid #003347;
+    padding-top: 5rem;
+}
+.footer__head {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.footer__btn {
+    width: 5rem;
+    height: 5rem;
+    border: 0.2rem solid #e5a55d;
+    border-radius: 50%;
+    font-size: 3rem;
+    color: #e5a55d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 400ms ease;
+}
+.footer__btn:hover {
+    transform: translateY(-1rem);
+    border-color: #ff7b02;
+}
+.footer__links {
+    margin: 3rem 0 5rem;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
 }
